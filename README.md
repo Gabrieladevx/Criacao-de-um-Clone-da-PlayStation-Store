@@ -78,7 +78,8 @@ Um clone moderno e responsivo da PlayStation Store desenvolvido em Angular, com 
    ```
 
 4. **Acesse no navegador**:
-   ```https://ashy-moss-0e359311e.2.azurestaticapps.net/
+   ```
+   https://ashy-moss-0e359311e.2.azurestaticapps.net/
    ```
 
 ## 📁 Estrutura do Projeto
