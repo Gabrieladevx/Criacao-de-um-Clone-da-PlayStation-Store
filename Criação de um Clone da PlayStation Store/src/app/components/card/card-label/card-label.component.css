@@ -1,0 +1,46 @@
+.card-label__container {
+	position: absolute;
+	bottom: 90px;
+	right: 0;
+	z-index: 2;
+}
+
+.card-label__content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg, #ff6b35, #f7931e);
+	color: white;
+	font-size: 11px;
+	font-family: 'Inter', 'Segoe UI', sans-serif;
+	font-weight: bold;
+	height: 35px;
+	padding: 0px 20px;
+	border-radius: 20px 0 0 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+	transition: all 0.3s ease;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.card-label__content:hover {
+	transform: translateX(-5px);
+	box-shadow: 0 6px 20px rgba(255, 107, 53, 0.6);
+}
+
+/* Diferentes cores para diferentes tipos de labels */
+.card-label__content:contains("EXCLUSIVE") {
+	background: linear-gradient(135deg, #8b5cf6, #a855f7);
+	box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+}
+
+.card-label__content:contains("NEW") {
+	background: linear-gradient(135deg, #10b981, #059669);
+	box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+}
+
+.card-label__content:contains("BEST") {
+	background: linear-gradient(135deg, #f59e0b, #d97706);
+	box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+}

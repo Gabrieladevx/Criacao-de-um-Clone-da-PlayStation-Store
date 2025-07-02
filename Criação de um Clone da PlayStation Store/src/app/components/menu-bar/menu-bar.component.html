@@ -1,0 +1,36 @@
+<div class="menu-bar__container">
+	<div class="menu-bar__logo">
+		<img
+			src="assets/ps-logo.png"
+			alt="playstation logo"
+			srcset=""
+			width="140px"
+			height="32px"
+		>
+	</div>
+	
+	<div class="menu-bar__search">
+		<input 
+			type="text" 
+			placeholder="Buscar jogos..." 
+			class="search__input"
+			(input)="onSearch($event)"
+		>
+		<button class="search__button" type="button">
+			🔍
+		</button>
+	</div>
+	
+	<div class="menu-bar__item">
+		<ul>
+			<li><a href="https://linkedin.com" target="_blank" title="LinkedIn">💼 LINKEDIN</a></li>
+			<li><a href="https://github.com/Gabrieladevx" target="_blank" title="GitHub">🐙 GITHUB</a></li>
+		</ul>
+	</div>
+	
+	<div class="menu-bar__mobile-toggle" (click)="toggleMobileMenu()">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+</div>
