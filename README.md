@@ -1,4 +1,4 @@
-# 🎮 PlayStation Store Clone - Versão Melhorada
+# 🎮 PlayStation Store Clone 
 
 Um clone moderno e responsivo da PlayStation Store desenvolvido em Angular, com melhorias significativas de design e funcionalidade.
 
